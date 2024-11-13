@@ -35,3 +35,11 @@ let nomComplert = "Ahiram Rivas Illanes";
 let primerCognom = nomComplert.split(" ")[1];
 console.log("Primer cognom:", primerCognom);
 console.log("Número de caràcters:", primerCognom.length);
+
+//10.- Donat un String amb el teu nom i cognoms, esborra el caràcter de la posició 6 i mostra el
+// resultat per pantalla.
+
+let nomComplet = "Ahiram Rivas Illanes";
+let nouNom = nomComplet.slice(0, 5) + nomComplet.slice(6);
+console.log("Nom modificat:", nouNom);
+
