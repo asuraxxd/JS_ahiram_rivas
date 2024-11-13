@@ -61,3 +61,15 @@ console.log(strExplicit); // "true"
 // Coerció implícita
 let strImplicit = boolea + "";
 console.log(strImplicit); // "true"
+
+//13.- Realitza una coerció explícita i implícita d’un String a booleà.
+
+let string = "true";
+
+// Coerció explícita
+let boolExplicit = Boolean(string);
+console.log(boolExplicit); // true
+
+// Coerció implícita
+let boolImplicit = !!string;
+console.log(boolImplicit); // true
