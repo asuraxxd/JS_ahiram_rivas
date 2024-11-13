@@ -21,3 +21,9 @@ let catet1 = 4;
 let catet2 = 4;
 let hipotenusa = Math.sqrt(catet1 ** 2 + catet2 ** 2);
 console.log("Hipotenusa:", hipotenusa.toFixed(1));
+
+//8.- Divideix un enter entre un String. Què retorna?
+
+let result = 10 / "2";
+console.log(result); // 5
+// JavaScript intenta convertir el string a un número abans de realitzar l'operació.
