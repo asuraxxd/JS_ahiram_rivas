@@ -15,3 +15,17 @@ let edad= 19
 console.log(nombre)
 console.log(estudiant)
 console.log(edad)
+
+//3.- Mostra una variable per consola que hagis declarat posteriorment amb var. Què apareix? I si
+// canvies la declaració a let ?
+
+console.log(cambios)
+var cambios=10
+console.log(cambios)
+
+// Si canvies la declaració a `let`:
+// console.log(cambios);
+// ReferenceError: cambios is not defined
+// let cambios = 10;
+// console.log(cambios);
+// 10
