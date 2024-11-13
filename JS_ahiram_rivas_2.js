@@ -73,3 +73,15 @@ console.log(boolExplicit); // true
 // Coerció implícita
 let boolImplicit = !!string;
 console.log(boolImplicit); // true
+
+//14.- Realitza una coerció explícita i implícita d’un booleà a Number.
+
+let bool = true;
+
+// Coerció explícita
+let numExplicit = Number(bool);
+console.log(numExplicit); // 1
+
+// Coerció implícita
+let numImplicit = +bool;
+console.log(numImplicit); // 1
