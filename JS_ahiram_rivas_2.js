@@ -50,3 +50,14 @@ let nul = null;
 let suma = indefinit + nul;
 console.log(suma); // NaN (Not a Number)
 
+//12.- Realitza una coerció explícita i implícita d’un booleà a String.
+
+let boolea = true;
+
+// Coerció explícita
+let strExplicit = String(boolea);
+console.log(strExplicit); // "true"
+
+// Coerció implícita
+let strImplicit = boolea + "";
+console.log(strImplicit); // "true"
