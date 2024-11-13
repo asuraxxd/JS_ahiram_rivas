@@ -15,3 +15,9 @@ console.log("Resta:", sub.toFixed(1));
 console.log("Divisió:", div.toFixed(1));
 console.log("Multiplicació:", mul.toFixed(1));
 
+//7.- Calcula la hipotenusa d’un triangle on les longituds dels catets sigui de 4.
+
+let catet1 = 4;
+let catet2 = 4;
+let hipotenusa = Math.sqrt(catet1 ** 2 + catet2 ** 2);
+console.log("Hipotenusa:", hipotenusa.toFixed(1));
