@@ -43,3 +43,10 @@ let nomComplet = "Ahiram Rivas Illanes";
 let nouNom = nomComplet.slice(0, 5) + nomComplet.slice(6);
 console.log("Nom modificat:", nouNom);
 
+//11.- Declara una variable undefined i un null. Què passa si els sumes?
+
+let indefinit;
+let nul = null;
+let suma = indefinit + nul;
+console.log(suma); // NaN (Not a Number)
+
