@@ -29,3 +29,14 @@ console.log(cambios)
 // let cambios = 10;
 // console.log(cambios);
 // 10
+
+//4.- Declara una variable amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus
+// de dades. Et deixa? Perquè?
+
+//let variable="hola"
+//console.log(variable)
+
+let variable=42// Canvi de tipus String a Number
+console.log(variable)
+// Sí que et deixa perquè `let` permet redeclarar i reasignar variables dins del seu àmbit.
+
