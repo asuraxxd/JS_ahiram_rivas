@@ -27,3 +27,11 @@ console.log("Hipotenusa:", hipotenusa.toFixed(1));
 let result = 10 / "2";
 console.log(result); // 5
 // JavaScript intenta convertir el string a un número abans de realitzar l'operació.
+
+//9.- Donat un String amb el teu nom i cognoms, extreu el teu primer cognom, i mostra’l per pantalla
+// indicant el número de caràcters que té.
+
+let nomComplert = "Ahiram Rivas Illanes";
+let primerCognom = nomComplert.split(" ")[1];
+console.log("Primer cognom:", primerCognom);
+console.log("Número de caràcters:", primerCognom.length);
