@@ -40,3 +40,11 @@ let variable=42// Canvi de tipus String a Number
 console.log(variable)
 // Sí que et deixa perquè `let` permet redeclarar i reasignar variables dins del seu àmbit.
 
+//5.- Declara una constant amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus
+// de dades. Et deixa? Perquè?
+
+const modificar="modificacion "
+console.log(modificar)
+//modificar=42
+// Uncaught TypeError: Assignment to constant variable.
+//No et deixa modificar una constant perquè, com el seu nom indica, els valors assignats a constants no poden ser canviats després de ser inicialitzats.
