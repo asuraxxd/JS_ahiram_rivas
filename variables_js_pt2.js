@@ -41,3 +41,10 @@ console.log(apellido1+' El numero de caracteres del pimer apellido es: '+ apelli
 
 let nombreApellidos2="Ahiram Rivas Illanes"
 console.log(nombreApellidos2.replace('m',''))
+
+//11.- Declara una variable undefined i un null. Què passa si els sumes?
+
+let variable1=undefined
+let variable2=null
+let sum=variable1+variable2
+console.log(sum)
