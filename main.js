@@ -20,10 +20,18 @@ console.log(hola5)
 
 var hola5 = "heyou"
 
-// Declara una variable amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
+// 4.- Declara una variable amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
 
 let valor1=1234;
 console.log(valor1)
 
 valor1="hola"
 console.log(valor1)
+
+
+//5.- Declara una constant amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
+
+const valor2=12345
+console.log(valor2)
+
+valor2="casi"
