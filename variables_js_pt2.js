@@ -58,4 +58,11 @@ let str= 'el valor es: '+ bole
 console.log(str)
 
 //13.- Realitza una coerció explícita i implícita d’un String a booleà.
+
+let str2="false"
+console.log(Boolean(str2))
+
+if (str2){
+    console.log("hola")
+}
 //14.- Realitza una coerció explícita i implícita d’un booleà a Number.
