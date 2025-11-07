@@ -36,3 +36,8 @@ console.log(division2)
 let nombreApellidos="Ahiram Rivas Illanes"
 let apellido1=nombreApellidos.slice(7,12)
 console.log(apellido1+' El numero de caracteres del pimer apellido es: '+ apellido1.length)
+
+//10.- Donat un String amb el teu nom i cognoms, esborra el caràcter de la posició 6 i mostra el resultat per pantalla.
+
+let nombreApellidos2="Ahiram Rivas Illanes"
+console.log(nombreApellidos2.replace('m',''))
