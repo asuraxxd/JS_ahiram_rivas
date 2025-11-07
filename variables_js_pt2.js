@@ -48,3 +48,14 @@ let variable1=undefined
 let variable2=null
 let sum=variable1+variable2
 console.log(sum)
+
+//12.- Realitza una coerció explícita i implícita d’un booleà a String.
+let bole=false
+
+console.log(bole.toString())
+
+let str= 'el valor es: '+ bole
+console.log(str)
+
+//13.- Realitza una coerció explícita i implícita d’un String a booleà.
+//14.- Realitza una coerció explícita i implícita d’un booleà a Number.
