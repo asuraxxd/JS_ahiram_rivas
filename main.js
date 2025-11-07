@@ -19,3 +19,11 @@ console.log(adios)
 console.log(hola5)
 
 var hola5 = "heyou"
+
+// Declara una variable amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
+
+let valor1=1234;
+console.log(valor1)
+
+valor1="hola"
+console.log(valor1)
