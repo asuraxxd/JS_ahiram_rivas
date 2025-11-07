@@ -66,3 +66,9 @@ if (str2){
     console.log("hola")
 }
 //14.- Realitza una coerció explícita i implícita d’un booleà a Number.
+
+let bol2=false
+let explicita=Number(bol2)
+console.log(explicita)
+
+console.log(bol2+1)
