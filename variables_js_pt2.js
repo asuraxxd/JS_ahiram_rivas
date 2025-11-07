@@ -22,3 +22,11 @@ let cateto2=4
 let elevadoPotencia=(cateto1**2)+(cateto2**2)
 let hipotenusa=Math.sqrt(elevadoPotencia)
 console.log('El valor de la hipotenusa es: '+hipotenusa.toFixed(2))
+
+//8.- Divideix un enter entre un String. Què retorna?
+
+let numeroEntero=123
+let cadenaTexto="hola"
+
+let division2=numeroEntero/cadenaTexto
+console.log(division2)
