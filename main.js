@@ -6,10 +6,16 @@ console.warn("19/10/2005")
 
 //2.- Declara 3 variables, cadascuna amb un tipus de dades diferent i mostra el valor per consola.
 
-var hola="Hola tio"
-const queTal="Que tal todo"
-let adios="adios chavalin"
+var hola = "Hola tio"
+const queTal = "Que tal todo"
+let adios = "adios chavalin"
 
 console.log(hola)
 console.log(queTal)
 console.log(adios)
+
+//3.- Mostra una variable per consola que hagis declarat posteriorment amb var. Què apareix? I si canvies la declaració a let ?
+
+console.log(hola5)
+
+var hola5 = "heyou"
